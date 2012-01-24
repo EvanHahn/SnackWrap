@@ -25,7 +25,7 @@ it:
     foo.coffee     coffee foo.coffee
     styles.less    lessc styles.less > styles.css
 
-Save it and then run OCC in the terminal:
+Save it and then run ACRAC in the terminal:
 
     $ acrac config.txt
 
