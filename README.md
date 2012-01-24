@@ -32,6 +32,17 @@ Save it and then run ACRAC in the terminal:
 You're done! Now, every time you change any of those files, that shell script
 will run without you having to think about it. ACRAC!
 
+Goals
+-----
+
+ACRAC hopes to accomplish the following goals:
+
+* Watch a number of files
+* Be able to do whatever you like with them (compile them, compile everything,
+  your call)
+* Be quickly configurable
+* Don't be a daemon
+
 More info
 ---------
 
