@@ -1,0 +1,2 @@
+foo.txt    echo Hello please
+bar.txt    ls
