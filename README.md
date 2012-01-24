@@ -42,7 +42,7 @@ More info
   I'd appreciate it if you gave me some credit for it.
 
 * ACRAC is licensed under the Unlicense. For more info, check out UNLICENSE.txt
-  and <unlicense.org>.
+  and <http://www.unlicense.org>.
 
 * Enjoy!
 
