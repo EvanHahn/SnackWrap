@@ -46,11 +46,14 @@ int main(int argc, char* argv[]) {
 	}
 
 	// How many lines does the file have? Count return characters to find out.
-	int num = 0, temp;
+	int num = 0, temp, linelength = 0;
 	while (!ins.eof()) {
 		temp = ins.get();
-		if (temp == 10)
+		if ((temp == 10) && (linelength > 0)) {
 			num ++;
+			linelength = 0;
+		}
+		linelength ++;
 	}
 
 	// Declare the files and their commands
