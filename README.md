@@ -22,7 +22,9 @@ The solution: ACRAC!
 Make a config file (let's call ours `config.txt`) and let's put this inside of
 it:
 
-    foo.coffee     coffee foo.coffee
+    # Compile JavaScript
+    foo.coffee     coffee -c foo.coffee
+    # Compile CSS
     styles.less    lessc styles.less > styles.css
 
 Save it and then run ACRAC in the terminal:

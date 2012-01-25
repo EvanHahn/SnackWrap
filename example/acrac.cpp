@@ -52,8 +52,8 @@ int main(int argc, char* argv[]) {
 		if ((temp == 10) && (linelength > 0)) {
 			num ++;
 			linelength = 0;
-		}
-		linelength ++;
+		} else
+			linelength ++;
 	}
 
 	// Declare the files and their commands
@@ -82,24 +82,30 @@ int main(int argc, char* argv[]) {
 
 			const char* thisFile = (files[i]).c_str();
 
-			// If it exists...
-			ifstream input;
-			input.open(thisFile);
-			if (input.good()) {
+			// If it's not a comment...
+			if (thisFile[0] != '#') {
 
-				// And if it's newly modified...
-				struct stat attributes;
-				stat(thisFile, &attributes);
-				time_t age = attributes.st_mtime;
-				if (difftime(age, modified[i])) {
+				// If it exists...
+				ifstream input;
+				input.open(thisFile);
+				if (input.good()) {
 
-					// Then update the modified time and execute the command
-					modified[i] = age;
-					const char* command = commands[i].c_str();
-					system(command);
+					// And if it's newly modified...
+					struct stat attributes;
+					stat(thisFile, &attributes);
+					time_t age = attributes.st_mtime;
+					if (difftime(age, modified[i])) {
 
+						// Then update the modified time and execute the command
+						modified[i] = age;
+						const char* command = commands[i].c_str();
+						system(command);
+
+					}
 				}
+
 			}
+
 		}
 
 		wait(0.2);

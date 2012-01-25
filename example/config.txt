@@ -1,2 +1,4 @@
 foo.txt    echo Hello please
+
+# You can have comments!
 bar.txt    ls
