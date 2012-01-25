@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
 	// We're all good!
 	cout << "ACRAC is now running. To halt, press ctrl + C." << endl;
 
-	// Start the endless loop!
+	// Start the endless loop
 	while (true) {
 
 		// Go through each file
@@ -112,8 +112,8 @@ int main(int argc, char* argv[]) {
 
 	}
 
-	// All done!
-	return 0;
+	// You should never get here, but...
+	return -1;
 
 }
 
