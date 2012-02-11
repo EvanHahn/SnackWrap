@@ -1,5 +1,5 @@
-ACRAC! After Changing, Run A Command
-====================================
+SnackWrap
+=========
 
 The problem
 -----------
@@ -16,8 +16,8 @@ Or LESS CSS?
 Some of these programs have some awesome CLI "watch" flags, but what if you just
 want to watch everything and not worry about it?
 
-The solution: ACRAC!
---------------------
+The solution: SnackWrap!
+------------------------
 
 Make a config file (let's call ours `config.txt`) and let's put this inside of
 it:
@@ -27,17 +27,17 @@ it:
     # Compile CSS
     styles.less    lessc styles.less > styles.css
 
-Save it and then run ACRAC in the terminal:
+Save it and then run SnackWrap in the terminal:
 
-    $ acrac config.txt
+    $ snackwrap config.txt
 
 You're done! Now, every time you change any of those files, that shell script
-will run without you having to think about it. ACRAC!
+will run without you having to think about it. SnackWrap!
 
 Goals
 -----
 
-ACRAC hopes to accomplish the following goals:
+SnackWrap hopes to accomplish the following goals:
 
 * Watch a number of files
 * Be able to do whatever you like with them (compile them, compile everything,
@@ -48,14 +48,13 @@ ACRAC hopes to accomplish the following goals:
 More info
 ---------
 
-* ACRAC is pronounced "ack wrack"; both syllables rhyme with "snack". Very
-  important.
+* SnackWrap used to be called ACRAC (After Changing, Run A Command) but that
+  got changed because that was stupid.
 
-* ACRAC was developed by Evan Hahn. It's not required, but if you like ACRAC,
-  I'd appreciate it if you gave me some credit for it.
+* SnackWrap was developed by Evan Hahn. It's not required, but if you like
+  SnackWrap, I'd appreciate it if you gave me some credit for it.
 
-* ACRAC is licensed under the Unlicense. For more info, check out UNLICENSE.txt
-  and <http://www.unlicense.org>.
+* SnackWrap is licensed under the Unlicense. For more info, check out
+  UNLICENSE.txt and <http://www.unlicense.org>.
 
 * Enjoy!
-

@@ -1,3 +1,3 @@
 # compile and run
-g++ acrac.cpp -o temp
+g++ snackwrap.cpp -o temp
 ./temp config.txt

@@ -1,5 +1,5 @@
 /*
-	ACRAC! After Changing, Run A Command
+	SnackWrap!
 	by Evan Hahn
 
 	1. Set up files to watch and their corresponding commands.
@@ -33,7 +33,7 @@ int main(int argc, char* argv[]) {
 
 	// If there's no argument...
 	if (argc <= 1) {
-		cout << "Type 'acrac config.txt' to run ACRAC against config.txt." << endl;
+		cout << "Type 'snackwrap config.txt' to run SnackWrap against config.txt." << endl;
 		return -1;
 	}
 
@@ -41,7 +41,7 @@ int main(int argc, char* argv[]) {
 	ifstream ins;
 	ins.open(argv[1]);
 	if (!ins.good()) {
-		cout << "ACRAC cannot open the configuration file." << endl;
+		cout << "SnackWrap cannot open the configuration file." << endl;
 		return -1;
 	}
 
@@ -72,7 +72,7 @@ int main(int argc, char* argv[]) {
 	ins.close();
 
 	// We're all good!
-	cout << "ACRAC is now running. To halt, press ctrl + C." << endl;
+	cout << "SnackWrap is now running. To halt, press ctrl + C." << endl;
 
 	// Start the endless loop
 	while (true) {
@@ -96,7 +96,7 @@ int main(int argc, char* argv[]) {
 					time_t age = attributes.st_mtime;
 					if (difftime(age, modified[i])) {
 
-						// Then update the modified time and execute the command
+						// ...update the modified time and execute my command
 						modified[i] = age;
 						const char* command = commands[i].c_str();
 						system(command);
@@ -116,4 +116,3 @@ int main(int argc, char* argv[]) {
 	return -1;
 
 }
-
