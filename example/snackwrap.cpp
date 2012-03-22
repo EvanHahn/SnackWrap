@@ -108,7 +108,7 @@ int main(int argc, char* argv[]) {
 
 		}
 
-		wait(0.2);
+		wait(0.5);
 
 	}
 
