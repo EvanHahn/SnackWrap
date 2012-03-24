@@ -72,7 +72,7 @@ int main(int argc, char* argv[]) {
 	ins.close();
 
 	// We're all good!
-	cout << "SnackWrap is now running. To halt, press ctrl + C." << endl;
+	cout << "SnackWrap is now running. To halt, press ctrl + Z." << endl;
 
 	// Start the endless loop
 	while (true) {
@@ -108,7 +108,7 @@ int main(int argc, char* argv[]) {
 
 		}
 
-		wait(0.5);
+		system("sleep 0.5");
 
 	}
 
