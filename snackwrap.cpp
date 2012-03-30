@@ -1,17 +1,19 @@
 /*
-	SnackWrap!
-	by Evan Hahn
 
-	1. Set up files to watch and their corresponding commands.
-	2. Run it in the directory you want.
-	3. ???
-	4. Profit!
+SnackWrap!
+by Evan Hahn
 
-	See the readme for more information.
+1. Set up files to watch and their corresponding commands.
+2. Run it in the directory you want.
+3. ???
+4. Profit!
 
-	This code is licensed under the Unlicense. For more information, refer to
-	<unlicense.org> or see UNLICENSE.txt. You may do whatever you wish, though
-	I'd appreciate if you gave me credit!
+See the readme for more information.
+
+This code is licensed under the Unlicense. For more information, refer to
+<unlicense.org> or see UNLICENSE.txt. You may do whatever you wish, though
+I'd appreciate if you gave me credit!
+
 */
 
 #include <cstdlib>
