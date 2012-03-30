@@ -1,3 +1,3 @@
-# compile and run
-g++ snackwrap.cpp -o temp
+# Compile and run
+g++ ../snackwrap.cpp -o temp
 ./temp config.txt
