@@ -41,13 +41,6 @@ For more information, please refer to <http://unlicense.org/>
 #include <sys/stat.h>
 using namespace std;
 
-// Wait
-void wait(double secs) {
-	clock_t end = clock() + (secs * CLOCKS_PER_SEC);
-	while (clock() < end) {}
-}
-
-// Main
 int main(int argc, char* argv[]) {
 
 	// If there's no argument...
