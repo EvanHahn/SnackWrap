@@ -1,5 +1,5 @@
-SnackWrap!
-==========
+SnackWrap, 1.0
+==============
 
 The problem
 -----------
