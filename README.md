@@ -24,6 +24,7 @@ it:
 
     # Compile JavaScript
     foo.coffee     coffee -c foo.coffee
+
     # Compile CSS
     styles.less    lessc styles.less > styles.css
 
