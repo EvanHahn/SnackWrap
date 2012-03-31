@@ -49,6 +49,8 @@ SnackWrap hopes to accomplish the following goals:
 More info
 ---------
 
+* I'm a web developer, not a C++ developer, so this may not be perfectly done.
+  If you'd like, help improve it!
 * SnackWrap used to be called ACRAC (After Changing, Run A Command) but that
   got changed because that was stupid.
 * SnackWrap was developed by Evan Hahn. It's not required, but if you like
