@@ -7,11 +7,11 @@ The problem
 Sometimes, when you modify a file, you want to run some shell script. Like what
 if you're using CoffeeScript:
 
-    coffee foo.coffee
+    coffee -c foo.coffee
 
 Or LESS CSS?
 
-    lessc styles.less > styles.css
+    lessc -x styles.less > styles.css
 
 Some of these programs have some awesome CLI "watch" flags, but what if you just
 want to watch everything and not worry about it?
@@ -30,7 +30,7 @@ it:
 
 Save it and then run SnackWrap in the terminal:
 
-    $ snackwrap config.txt
+    snackwrap config.txt
 
 You're done! Now, every time you change any of those files, that shell script
 will run without you having to think about it. SnackWrap!
@@ -51,11 +51,8 @@ More info
 
 * SnackWrap used to be called ACRAC (After Changing, Run A Command) but that
   got changed because that was stupid.
-
 * SnackWrap was developed by Evan Hahn. It's not required, but if you like
   SnackWrap, I'd appreciate it if you gave me some credit for it.
-
 * SnackWrap is licensed under the Unlicense. For more info, check out
-  UNLICENSE.txt and <http://www.unlicense.org>.
-
+  `UNLICENSE.txt` and <http://www.unlicense.org>.
 * Enjoy!
