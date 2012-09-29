@@ -1,4 +1,4 @@
-SnackWrap, 1.0
+SnackWrap, 1.1
 ==============
 
 The problem
