@@ -14,7 +14,8 @@ Or LESS CSS?
     lessc -x styles.less > styles.css
 
 Some of these programs have some awesome CLI "watch" flags, but what if you just
-want to watch everything and not worry about it?
+want to watch everything and not worry about it? What if you want to
+concatenate your files before compilation?
 
 The solution: SnackWrap!
 ------------------------
