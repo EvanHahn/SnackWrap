@@ -38,6 +38,7 @@ For more information, please refer to <http://unlicense.org/>
 #include <fstream>
 #include <string>
 #include <ctime>
+#include <unistd.h>
 #include <sys/stat.h>
 using namespace std;
 
@@ -84,7 +85,7 @@ int main(int argc, char* argv[]) {
 	ins.close();
 
 	// We're all good!
-	cout << "SnackWrap is now running. To halt, press ctrl + Z." << endl;
+	cout << "SnackWrap is now running. To halt, press ctrl + C." << endl;
 
 	// Start the endless loop
 	while (true) {
@@ -120,7 +121,7 @@ int main(int argc, char* argv[]) {
 
 		}
 
-		system("sleep 0.5");
+		usleep(500000);
 
 	}
 
