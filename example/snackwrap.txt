@@ -1,0 +1,2 @@
+src/*           ls src
+forbidden.txt   echo "AUUUGHH!!"
