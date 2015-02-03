@@ -25,3 +25,8 @@ You can run Snackwrap in a few ways:
 For more help:
 
     $ snackwrap -h
+
+Cool alternatives
+-----------------
+
+- [entr](http://entrproject.org/)
